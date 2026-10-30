@@ -2,6 +2,7 @@
 // Pengujian awal eksekusi PHP.
 echo "PHP berhasil dijalankan.";
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
   <head>
@@ -116,7 +117,7 @@ echo "PHP berhasil dijalankan.";
                   <label for="Saran">Saran</label>
                 </div>
 
-                </div> class="form-group">
+                <div class="form-group">
                    <p>Topik yang Diminati</p>
 
                      <input type="checkbox" id="minat.HTML" name="minat" value="HTML" />
