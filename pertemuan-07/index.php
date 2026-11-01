@@ -200,7 +200,7 @@ $pesan = $_SESSION['pesan'] ?? '';
         <h2>Selamat Datang</h2>
         <p>Halo, Saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
   
-        <img src="foto-profil.png" alt="Foto Profil Revand" width="200">
+        <img src="foto-profil.png" alt="Foto Profil Revand" />
       </section>
 
       <section id="about">
@@ -219,7 +219,7 @@ $pesan = $_SESSION['pesan'] ?? '';
           <p>Semester: <?php echo $semester . " (" . $keteranganSemester . ")"; ?></p>
           <p>Saya Mahasiswa Program Studi Sistem Informasi</p>
 
-          <h3>Target Belajar (perulangan for)</h3>
+          <h3>Target Belajar (Perulangan for):</h3>
           <ol>
             <?php 
             // Perulangan for tanpa array; materi larik dibahas pada P9. 
@@ -239,7 +239,7 @@ $pesan = $_SESSION['pesan'] ?? '';
                   echo "Menggunakan perulangan for dan while."; 
                   break; 
                 default: 
-                  echo "Belum dipetakan"; 
+                  echo "Belum dipetakan."; 
                   break; 
             } 
             echo "</li>"; 
