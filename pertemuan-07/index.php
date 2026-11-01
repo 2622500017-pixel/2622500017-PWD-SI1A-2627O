@@ -200,7 +200,7 @@ $pesan = $_SESSION['pesan'] ?? '';
         <h2>Selamat Datang</h2>
         <p>Halo, Saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
   
-        <img src="foto-profil.png" alt="Foto Profil Revand" />
+        <img src="foto-profil.png" alt="Foto Profil Revand" width="200">
       </section>
 
       <section id="about">

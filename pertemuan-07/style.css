@@ -50,7 +50,7 @@ header h1 {
   cursor: pointer;
 }
 
-/* Navigasi 
+/* Navigasi */
 nav ul {
   display: flex;
   flex-direction: column;

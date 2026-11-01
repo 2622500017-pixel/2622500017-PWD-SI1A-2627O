@@ -12,6 +12,9 @@ body {
 
 /*Header */
 header {
+  background-image: url("header-Background.png");
+  background-size: cover;
+  nackground-position: center;
   background-color: #003366;
   color: #ffffff;
   padding: 20px;
@@ -50,7 +53,7 @@ header h1 {
   cursor: pointer;
 }
 
-/* Navigasi 
+/* Navigasi */
 nav ul {
   display: flex;
   flex-direction: column;
