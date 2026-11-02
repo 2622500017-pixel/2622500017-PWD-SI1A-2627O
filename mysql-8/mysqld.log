@@ -1,0 +1,15 @@
+2026-11-01T08:33:07.037436Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2026-11-01T08:33:07.037519Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2026-11-01T08:33:07.037567Z 0 [System] [MY-010116] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 15724
+2026-11-01T08:33:07.094269Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: dce1752c-d5ce-11f1-b5e3-708bcd2a93af.
+2026-11-01T08:33:07.112697Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2026-11-01T08:33:07.114843Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2026-11-01T08:33:07.116247Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-11-01T08:33:07.124464Z 0 [System] [MY-010910] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.
+2026-11-01T08:33:17.147415Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2026-11-01T08:33:17.147508Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2026-11-01T08:33:17.147566Z 0 [System] [MY-010116] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 20676
+2026-11-01T08:33:17.205559Z 1 [ERROR] [MY-011011] [Server] Failed to find valid data directory.
+2026-11-01T08:33:17.207715Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2026-11-01T08:33:17.209303Z 0 [ERROR] [MY-010119] [Server] Aborting
+2026-11-01T08:33:17.217911Z 0 [System] [MY-010910] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.

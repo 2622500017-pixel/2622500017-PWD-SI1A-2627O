@@ -172,7 +172,7 @@ $pesan = $_SESSION['pesan'] ?? '';
   <body>
     <header>
       <div class="header-top">
-        <h1 style="color: rgb(241, 245, 245); text-decoration: underline;">Profil Mahasiswa</h1>
+        <h1 style="color: rgb(255, 255, 255); text-decoration: underline;">Profil Mahasiswa</h1>
 
         <button 
           class="nav-toggle"
@@ -200,7 +200,7 @@ $pesan = $_SESSION['pesan'] ?? '';
         <h2>Selamat Datang</h2>
         <p>Halo, Saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
   
-        <img src="Background.png" alt="Foto Profil Revand" width="200" height="200" />
+        <img src="Background.png" alt="Foto Profil Revand" width="200">
       </section>
 
       <section id="about">
@@ -275,7 +275,7 @@ $pesan = $_SESSION['pesan'] ?? '';
 
         <p>
           Kunjungi 
-          <a target="_blank" href="https://github.com/2622500017-pixel/2622500017-PWD-SI1A-2627O.git/?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
+          <a target="_blank" href="https://github.com/2622500017-pixel/2622500017-PWD-SI1A-2627O.git/?= PROFIL_GITHUB ?>">Profil GitHub saya</a>.
         </p>
 
         <form id="contactForm" action="index.php" method="post" novalidate>
