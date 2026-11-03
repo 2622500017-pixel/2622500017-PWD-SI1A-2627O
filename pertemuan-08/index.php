@@ -9,6 +9,12 @@
         untuk sahabat berbulu Anda. Temukan makanan, aksesori, grooming, dan penitipan
         dalam satu tempat, karena setiap ekor berhak bahagia.
       </p>
+      <p>
+        <?= e(NAMA_TOKO) ?> berdiri sejak tahun <?= e($tahunBerdiri) ?>. Kami berlokasi di
+        <strong><?= e($alamat) ?></strong> dan dapat dihubungi melalui telepon
+        <strong><?= e($telepon) ?></strong> atau email
+        <strong><?= e($emailToko) ?></strong>.
+      </p>
       <p class="status-toko <?= $tokoBuka ? 'buka' : 'tutup' ?>">
         <?= e($statusToko) ?> &middot; jam <?= sprintf('%02d.00', $jamBuka) ?> - <?= sprintf('%02d.00', $jamTutup) ?>
       </p>

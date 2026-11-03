@@ -31,7 +31,9 @@ html { scroll-behavior: smooth; }
 body {
   background-image: url("Background.webp");
   display: grid;
-  grid-template-columns: 200px 1fr;   /* lebar navigasi | konten */
+  grid-template-columns: 150px 1fr;   /* lebar navigasi | konten */
+  grid-template-rows: auto 1fr auto;  /* header | konten | footer */
+  min-height: 100vh;
   grid-template-areas:
     "header header"
     "nav    main"
@@ -171,15 +173,24 @@ section h3 {
   display: block;
   margin-top: 12px;
   border: 1px solid var(--garis);
-  border-radius: 20px;
+  border-radius: 8px;
   background: var(--krem);
   max-width: 100%;
   height: auto;
 }
 
+#beranda {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  grid-column: 1 / -1;  /* melebar penuh di bawah */
+
+}
+
+
 .status-toko {
   display: inline-block;
-  padding: 4px 14px;
+  padding: 8px 14px;
   border-radius: 20px;
   font-weight: 700;
   font-size: 0.95rem;
